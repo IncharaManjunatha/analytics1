@@ -22,7 +22,7 @@ denco %>% group_by(partnum) %>% summarise(n=n()) %>% arrange(desc(n))
 
 names(denco)
 
-dfa4=  aggregate(margin= partnum, data=sales, FUN=sum)
+dfa4=aggregate(margin= partnum, data=sales, FUN=sum)
 
 
 
